@@ -8,7 +8,7 @@
     <title>Сучасна пекарня</title>
 
     <!-- /Styles -->
-    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/main.min.css" />
 </head>
 
 <body>
@@ -91,7 +91,7 @@
                                 <h3 class="chef-title">Влад</h3>
                                 <div class="chef-text">
                                     <p>Привіт, я Влад!</p>
-                                    <p>Мій кодитерський стаж вже 18 років.SHOP BEKERY - це наша любов, з
+                                    <p>Мій кодитерський стаж вже 18 років. SHOP BEKERY - це наша любов, з
                                         якою ми ділимось
                                         кожен раз з Вами через нашу випічку!
                                     </p>
@@ -118,6 +118,7 @@
                     <ul class="formats-list">
                         <li class="formats-item">
                             <article class="format-card">
+                                <img class="format-image" src="./images/walrus-format.jpg" alt="Walrus format">
                                 <h3 class="format-title" lang="en">Walrus</h3>
                                 <div class="format-text">
                                     <p>Площа: до 120 м2</p>
@@ -129,6 +130,7 @@
                         </li>
                         <li class="formats-item">
                             <article class="format-card">
+                                <img class="format-image" src="./images/horseshoe-format.jpg" alt="Horseshoe format">
                                 <h3 class="format-title" lang="en">Horseshoe</h3>
                                 <div class="format-text">
                                     <p>Площа: до 25 м2</p>
@@ -140,6 +142,7 @@
                         </li>
                         <li class="formats-item">
                             <article class="format-card">
+                                <img class="format-image" src="./images/handlebar-format.jpg" alt="Handlebar format">
                                 <h3 class="format-title" lang="en">Handlebar</h3>
                                 <div class="format-text">
                                     <p>Площа: до 15 м2</p>
@@ -167,21 +170,25 @@
                         <form name="contact-form" autocomplete="off">
                             <div class="form-field">
                                 <label class="form-label visually-hidden" for="user-name">Ім'я</label>
-                                <input class="form-input" placeholder="Ім'я" type="text" name="user-name" id="user-name">
+                                <input class="form-input" placeholder="Ім'я" type="text" name="user-name"
+                                    id="user-name">
                             </div>
-            
+
                             <div class="form-field">
                                 <label class="form-label visually-hidden" for="user-tel">Телефон</label>
-                                <input class="form-input" placeholder="Телефон" type="tel" name="user-tel" id="user-tel">
+                                <input class="form-input" placeholder="Телефон" type="tel" name="user-tel"
+                                    id="user-tel">
                             </div>
-            
+
                             <div class="form-field">
                                 <label class="form-label visually-hidden" for="user-email">Електронна пошта</label>
-                                <input class="form-input" placeholder="Електронна пошта" type="email" name="user-email" id="user-email">
+                                <input class="form-input" placeholder="Електронна пошта" type="email" name="user-email"
+                                    id="user-email">
                             </div>
-            
+
                             <button class="form-button button" type="submit">Замовити дзвінок</button>
-                            <p class="form-terms">Натискаючи на кнопку я погоджуюсь з <a class="form-terms-link" href="#">політикою конфіденційності</a></p>
+                            <p class="form-terms">Натискаючи на кнопку я погоджуюсь з <a class="form-terms-link"
+                                    href="#">політикою конфіденційності</a></p>
                         </form>
                     </div>
                     <iframe class="contact-map"
@@ -238,7 +245,7 @@
 
         </div>
     </footer>
-    <div class="backdrop">
+    <div class="backdrop is-hidden">
         <div class="modal">
             <button class="modal-btn-close" type="button">Close</button>
             <h2>Замовити дзвінок</h2>
@@ -256,11 +263,13 @@
 
                 <div class="form-field">
                     <label class="form-label visually-hidden" for="user-email">Електронна пошта</label>
-                    <input class="form-input" placeholder="Електронна пошта" type="email" name="user-email" id="user-email">
+                    <input class="form-input" placeholder="Електронна пошта" type="email" name="user-email"
+                        id="user-email">
                 </div>
 
                 <button class="form-button button" type="submit">Замовити дзвінок</button>
-                <p class="form-terms">Натискаючи на кнопку я погоджуюсь з <a class="form-terms-link" href="#">політикою конфіденційності</a></p>
+                <p class="form-terms">Натискаючи на кнопку я погоджуюсь з <a class="form-terms-link" href="#">політикою
+                        конфіденційності</a></p>
             </form>
         </div>
     </div>
