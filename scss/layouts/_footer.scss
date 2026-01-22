@@ -75,11 +75,17 @@
         color: var(--color-brand-normal);
     }
 
+    &__address-socials {
+        gap: 20px;
+        display: flex;
+    }
+
     &__address-icon {
         fill: var(--color-primary-light);
     }
 
     &__address-copyright {
+        color: var(--color-secondary-dark);
         font-size: 14px;
     }
 }
